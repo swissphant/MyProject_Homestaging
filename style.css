@@ -1,0 +1,259 @@
+:root {
+  --grey: #bfbabe;
+  --petrol: #558a86;
+  --offwhite: #f1f2f0;
+  --brown: #a63e14;
+}
+
+body {
+  font-family: 'Open Sans', helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  color: var(--offwhite);
+  background-color: var(--offwhite);
+
+  padding: 2%;
+  margin: 0 auto;
+  max-width: 800px;
+  }
+
+/* Typography */
+h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 50px 0 40px 0;
+  }
+
+h2 {
+  font-size: 25px;
+  line-height: 1.1;
+  margin: 0;
+  margin: 0 0 30px 0;
+  font-family: 'Pacifico', cursive;
+  }
+
+  p {
+    margin-bottom: 30px;
+    }
+
+  img {
+    width: 50%;
+      }
+
+blockquote {
+  font-family:'Shadows Into Light', cursive;
+  margin: 0;
+  padding: 0;
+  }
+
+img {
+  width: 100%;
+    }
+
+/* Colour blocks */
+
+header {
+  background-color: var(--grey);
+  color: var(--offwhite);
+  margin-bottom: auto;
+      }
+
+main {
+  background-color: var(--petrol);
+  margin-bottom: auto;
+    }
+
+.gallery {
+  background-color: var(--brown);
+  color: var(--offwhite);
+  margin-bottom: auto;
+    }
+
+.reviews {
+  background-color: #26547C;
+  color: var(--offwhite);
+    }
+
+/* Download banner */
+
+.download-banner {
+  background: var(--petrol) url(images/House3.jpeg) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  min-height: 800px;
+  max-height: 40vh;
+  margin-bottom: 40px;
+
+  display: flex;
+  align-items: left;
+  justify-content: center;
+
+  }
+
+.download-banner a{
+  color: var(--offwhite);
+  background-color: var(--grey);
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 50px;
+  margin-left: 300px;
+  font-family: 'Pacifico', cursive;
+  }
+
+.download-banner a:hover,
+.download-banner a:focus {
+  color: var(--grey);
+  background-color: var(--offwhite);
+}
+
+img {
+  width: 100%;
+  border-radius: 5%;
+  }
+
+
+/* Image gallery */
+
+.gallery ul{
+  list-style-type: none;
+  padding: calc(5% - 20px);
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.gallery li {
+  flex: 1 0 150px;
+  height: 300px;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.Office2{
+  background-image: url(images/Office2.jpeg);
+  background-position: 100% 50%;
+  }
+
+.Bath{
+  background-image: url(images/Bath.jpeg);
+  background-position: 0% 50%;
+  }
+
+.Livingroom{
+  background-image: url(images/Livingroom.jpeg);
+  background-position: 50% 50%;
+  }
+
+.Bedroom{
+  background-image: url(images/Bedroom.jpeg);
+  background-position: 0% 50%;
+  }
+
+/* Header */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5%;
+  }
+
+.logo{
+  min-width: 0px;
+  max-width: 150px;
+  position: sticky;
+  top: 100px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  }
+
+.menu{
+  flex: 1 0 auto;
+  max-width:10em;
+  }
+
+.menu ul{
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  }
+
+.menu li{
+  margin-bottom: 10px;
+  }
+
+.menu a{
+  color: var(--offwhite);
+  background-color: var(--grey);
+  text-decoration: none;
+
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  }
+
+.menu a:hover,
+.menu a:focus,
+.menu .current {
+    color: var(--grey);
+    background-color: var(--offwhite);
+  }
+/* Main section */
+
+main{
+  padding: 5%;
+  }
+
+.reviews{
+  padding: 5%;
+  }
+
+.reviews ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  }
+
+  .footer{
+    padding: 5%;
+    font-size: 15px;
+    text-align: center;
+    background: var(--grey);
+    color: var(--offwhite);
+    }
+    .icons-container{
+    display: flex;
+    flex: auto;
+    align-self: flex-end;
+    text-align: center;
+    list-style: none;
+    text-decoration:none;
+    justify-content: space-around;
+      }
+
+      /* partners */
+
+    .partners
+      a:link{
+        text-decoration: none;
+        color:#f1f2f0;
+      }
+      a:visited {
+        text-decoration: none;
+        color:#bfbabe;
+      }
+      a:active {
+        text-decoration: underline;
+      }
